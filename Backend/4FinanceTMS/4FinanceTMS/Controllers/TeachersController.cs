@@ -33,7 +33,7 @@ namespace _4FinanceTMS.Controllers
                 //create a teacher dto and fill it from the teacher model
                 var teacherDto = new Dtos.TeacherDto()
                 {
-                    TeacherId = teacher.Id,
+                    Id = teacher.Id,
                     Name = teacher.Name,
                     Email = teacher.Email,
                     Specality = teacher.Specality,
@@ -59,7 +59,7 @@ namespace _4FinanceTMS.Controllers
             //mappig
             var teacherDto = new Dtos.TeacherDto()
             {
-                TeacherId = teacher.Id,
+                Id = teacher.Id,
                 Name = teacher.Name,
                 Email = teacher.Email,
                 Specality = teacher.Specality,
@@ -80,18 +80,18 @@ namespace _4FinanceTMS.Controllers
             teacher = await teacherRepository.CreateTeacherAsync(teacher);
             var teacherDto = new Dtos.TeacherDto
             {
-                TeacherId = teacher.Id,
+                Id = teacher.Id,
                 Name = teacher.Name,
                 Email = teacher.Email,
                 Specality = teacher.Specality,
             };
             return CreatedAtAction(
                 nameof(GetTeacherAsync),
-                new { id = teacherDto.TeacherId },
+                new { id = teacherDto.Id },
                 teacherDto);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id:guid}")]
         public async Task<IActionResult> DeleteTeacherAsync(Guid id)
         {
             var teacher = await teacherRepository.DeleteTeacherAsync(id);
@@ -103,6 +103,7 @@ namespace _4FinanceTMS.Controllers
 
             var teacherDto = new Dtos.TeacherDto
             {
+                Id =teacher.Id,
                 Name = teacher.Name,
                 Email = teacher.Email,
                 Specality = teacher.Specality,
@@ -132,7 +133,7 @@ namespace _4FinanceTMS.Controllers
             //Convert from Model back to DTO
             var teacherDto = new Dtos.TeacherDto
             {
-                TeacherId = teacher.Id,
+                Id = teacher.Id,
                 Name = teacher.Name,
                 Email = teacher.Email,
                 Specality = teacher.Specality,

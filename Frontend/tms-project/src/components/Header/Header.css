@@ -1,0 +1,26 @@
+.header-logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  padding: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #ef7367;
+}

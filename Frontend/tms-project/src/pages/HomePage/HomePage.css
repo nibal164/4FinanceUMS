@@ -1,0 +1,304 @@
+.home-page-container {
+  padding: 0 20px;
+}
+
+.top-section-image {
+  width: 100%;
+}
+
+.top-section-text {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: black;
+}
+
+@media only screen and (max-width: 1560px) {
+  .top-section-text {
+    font-size: 50px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1490px) {
+  .top-section-text {
+    font-size: 48px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .top-section-text {
+    font-size: 48px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .top-section-text {
+    font-size: 47px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .top-section-text {
+    font-size: 43px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .top-section-text {
+    font-size: 41px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .top-section-text {
+    font-size: 38px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .top-section-text {
+    font-size: 35px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 783px) {
+  .top-section-text {
+    font-size: 28px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .top-section-text {
+    font-size: 20px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 606px) {
+  .top-section-text {
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .top-section-text {
+    font-size: 15px;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .top-section-text {
+    font-size: 15px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 432px) {
+  .top-section-text {
+    font-size: 12px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .top-section-text {
+    font-size: 10px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 344px) {
+  .top-section-text {
+    font-size: 9.5px;
+    position: absolute;
+    top: 24.5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  .top-section-text {
+    font-size: 8.5px;
+    position: absolute;
+    top: 23.5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .top-section-text {
+    font-size: 8px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .top-section-text {
+    font-size: 7.8px;
+    position: absolute;
+    top: 22.2%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 255px) {
+  .top-section-text {
+    font-size: 7px;
+    position: absolute;
+    top: 21.8%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 230px) {
+  .top-section-text {
+    font-size: 6.7px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 212px) {
+  .top-section-text {
+    font-size: 6.5px;
+    position: absolute;
+    top: 20.5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 188px) {
+  .top-section-text {
+    font-size: 6px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: black;
+  }
+}
+
+.home-page-content {
+  padding: 0 10px;
+}
+
+.about-us-section-text {
+  font-size: larger;
+}
+
+.contact-us-social-media-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+
+.courses-section {
+  background-color: rgb(247, 111, 103);
+  margin: 0 100px;
+}
+
+.instagram-fb {
+  height: 50px;
+  height: 50px;
+}
+
+.both-instagram-facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
