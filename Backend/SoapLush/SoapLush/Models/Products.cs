@@ -2,7 +2,7 @@
 {
     public class Products
     {
-        public Guid Id { get; set; }
+        public int id { get; set; }
 
         public string Name { get; set; } = string.Empty;
 
@@ -14,12 +14,9 @@
 
         public string Price { get; set; } = string.Empty;
 
-        public string Category { get; set; } = string.Empty;
+        public string CategoryId { get; set; } = string.Empty;
 
-        public string subCategorty { get; set; } = string.Empty;
+        public string subCategortyId { get; set; } = string.Empty;
 
-        public IEnumerable<SoapCategory> SoapCategories { get; set; }
-
-        public IEnumerable<SoapSubCategory> SoapSubCategories { get; set;}
     }
 }
