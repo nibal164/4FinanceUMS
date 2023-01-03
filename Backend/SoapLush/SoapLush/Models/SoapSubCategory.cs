@@ -6,6 +6,6 @@
 
         public string Name { get; set; } = string.Empty;
 
-        public IEnumerable<SoapCategory> soapCategories { get; set; }
+        public IEnumerable<SoapCategory> SoapCategories { get; set; }
     }
 }

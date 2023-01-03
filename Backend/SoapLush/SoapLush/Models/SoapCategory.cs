@@ -8,7 +8,7 @@
 
         public string Image { get; set; } = string.Empty;
 
-        public string subCategortyId { get; set; } = string.Empty;
+        public int subCategortyId { get; set; }
 
         public IEnumerable<Products> Products { get; set; }
 

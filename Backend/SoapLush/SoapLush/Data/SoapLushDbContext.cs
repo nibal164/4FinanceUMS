@@ -8,7 +8,6 @@ namespace SoapLush.Data
         public SoapLushDbContext(DbContextOptions<SoapLushDbContext> options) : base(options)
         {
         }
-
         public DbSet<Products> Products { get; set; }
 
         public DbSet<SoapCategory> SoapCategories { get; set; }

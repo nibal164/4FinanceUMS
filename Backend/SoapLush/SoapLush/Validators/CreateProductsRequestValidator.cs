@@ -11,9 +11,9 @@ namespace SoapLush.Validators
             RuleFor(x=> x.Image).NotEmpty();
             RuleFor(x=> x.Description).NotEmpty();
             RuleFor(x=> x.Ingredients).NotEmpty();
-            RuleFor(x=> x.Price).NotEmpty();
-            RuleFor(x=> x.CategoryId).NotEmpty();
-            RuleFor(x=> x.subCategortyId).NotEmpty();
+            RuleFor(x=> x.Price).NotNull();
+            RuleFor(x=> x.CategoryId).NotNull();
+            RuleFor(x=> x.subCategortyId).NotNull();
 
         }
     }

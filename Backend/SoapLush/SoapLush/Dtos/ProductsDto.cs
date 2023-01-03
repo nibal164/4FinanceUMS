@@ -1,6 +1,6 @@
-﻿namespace SoapLush.Models
+﻿namespace SoapLush.Dtos
 {
-    public class Products
+    public class ProductsDto
     {
         public int id { get; set; }
 
@@ -17,6 +17,5 @@
         public int CategoryId { get; set; }
 
         public int subCategortyId { get; set; }
-
     }
 }
